@@ -1,0 +1,101 @@
+.first-view {
+    width: 40vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.view0{
+    background-image: url(../images/illust/1.png);
+}
+
+.view1{
+    background-image: url(../images/illust/2.png);
+}
+
+.view2{
+    background-image: url(../images/illust/3.png);
+}
+
+.box{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    max-width: 90%;
+    margin-top: 5vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    align-items: flex-start;
+}
+
+.feature-text {
+    max-width: 300px;
+    margin-right: 40px;
+}
+
+.nore{
+    position: relative;
+    left: 0px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    position: relative;
+    right: 0px;
+}
+
+.left{
+    margin-left: 20px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.right{
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.line{
+    background-color:gray;
+    width:4px;
+    height: 30vw;
+    margin-left: 5px;
+}
+
+.liner{
+    background-color:gray;
+    width:4px;
+    height: 30vw;
+    margin-right: 5px;
+}
+
+p {
+    max-width: 500px;
+    min-width: 200px;
+    font-size: 3.5vw;
+    line-height: 28px;
+    margin-top: 2vw;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.reverse p{
+    margin-right: 10px;
+    text-align: right;
+}
+
+h4{
+    font-size: 6vw;
+    text-align: center;
+}
